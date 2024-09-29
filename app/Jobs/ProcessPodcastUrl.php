@@ -19,7 +19,7 @@ class ProcessPodcastUrl implements ShouldQueue
      */
     public function __construct(public $rssUrl, public $listeningParty, public $episode)
     {
-        //
+        dd('aaaaa');
     }
 
     /**
